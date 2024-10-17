@@ -124,6 +124,7 @@ HAL_StatusTypeDef adc_read(void);
   */
 int main(void)
 {
+
   /* USER CODE BEGIN 1 */
 #ifdef LOG_SEMIHOSTING
   // semihosting init
@@ -150,8 +151,8 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_SPI3_Init();
   MX_DMA_Init();
+  MX_SPI3_Init();
   MX_ADC1_Init();
   MX_USART2_UART_Init();
   MX_TIM6_Init();
