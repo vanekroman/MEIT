@@ -29,7 +29,7 @@ fp-info-cache
 *.xml
 *.csv
 
-## Kicad gitignore
+## C lang gitignore
 
 # Prerequisites
 *.d
